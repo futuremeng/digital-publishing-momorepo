@@ -9,7 +9,7 @@
     "email": "futuremeng@gmail.com",
     "url": "https://github.com/futuremeng"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futuremeng/vue3-vant4-mobile.git"
