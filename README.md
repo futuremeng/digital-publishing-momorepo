@@ -1,3 +1,11 @@
+<!--
+ * @Author: be_loving@163.com 
+ * @Date: 2024-12-22 13:04:59
+ * @LastEditors: be_loving@163.com 
+ * @LastEditTime: 2024-12-22 13:06:17
+ * @FilePath: /one-monorepo/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # 一栈式主分前端架构
 
 ## 项目简介
@@ -5,7 +13,7 @@
 本项目旨在构建一个高效、可扩展的一栈式主分前端架构，特别适用于大型项目或微前端架构。通过结合 Monorepo、Federation 和 defineAsyncComponent 技术，我们创建了一个灵活且易于管理的开发环境。
 
 ## 目录结构
-. ├── apps/ 
+├── apps/ 
 │ └── one-main/ # 主应用（门户） 
 │ └── package.json 
 ├── packages/ 
