@@ -1,9 +1,9 @@
 <!--
  * @Author: be_loving@163.com 
  * @Date: 2024-12-09 16:52:20
- * @LastEditors: be_loving@163.com 
- * @LastEditTime: 2024-12-20 11:44:39
- * @FilePath: /one-monorepo/packages/one-vite-app-micro-basic/src/views/dashboard/index.vue
+ * @LastEditors: FutureMeng futuremeng@gmail.com
+ * @LastEditTime: 2025-06-05 11:11:08
+ * @FilePath: /one-monorepo/packages/one-basic/src/views/dashboard/index.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <template>
@@ -31,7 +31,7 @@
       </div>
       <n-button>naive-ui</n-button>
       <van-button>默认按钮</van-button>
-      <remote-counter></remote-counter>
+      <!-- <remote-counter></remote-counter> -->
     </div>
   </div>
 </template>
@@ -41,7 +41,7 @@ import { useDesignSettingStore } from '@/store/modules/designSetting'
 import { useGlobSetting } from '@/hooks/setting'
 import Logo from '@/components/Logo.vue'
 
-import RemouteCounter  from '@/components/RemouteCounter.vue'
+// import RemouteCounter  from '@/components/RemouteCounter.vue'
 
 defineOptions({
   name: 'DashboardPage',
