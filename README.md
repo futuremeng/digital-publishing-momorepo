@@ -2,7 +2,7 @@
  * @Author: be_loving@163.com 
  * @Date: 2024-12-22 13:04:59
  * @LastEditors: FutureMeng futuremeng@gmail.com
- * @LastEditTime: 2025-06-05 11:15:55
+ * @LastEditTime: 2025-06-05 11:17:29
  * @FilePath: /one-monorepo/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -64,16 +64,23 @@ pnpm all run dev
 
 ##### 启动主应用
 ``` bash
-
 cd apps/one-main
 pnpm run dev
+```
+或
+``` bash
+pnpm main run dev
 ```
 
 ##### 启动分应用
 ``` bash
-
 cd packages/one-basic
 pnpm run dev
+```
+
+或
+``` bash
+pnpm basic run dev
 ```
 
 ### 构建项目
