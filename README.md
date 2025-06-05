@@ -1,8 +1,8 @@
 <!--
  * @Author: be_loving@163.com 
  * @Date: 2024-12-22 13:04:59
- * @LastEditors: be_loving@163.com 
- * @LastEditTime: 2024-12-22 13:06:17
+ * @LastEditors: FutureMeng futuremeng@gmail.com
+ * @LastEditTime: 2025-06-05 11:15:55
  * @FilePath: /one-monorepo/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -51,39 +51,57 @@
 
 ```bash
 pnpm install
-启动开发服务器
-分别启动主应用和分应用的开发服务器：
+```
 
-bash
-# 启动主应用
+### 启动开发服务器
+
+#### 启动所有应用
+``` bash
+pnpm all run dev
+```
+
+#### 分别启动主应用和分应用的开发服务器：
+
+##### 启动主应用
+``` bash
+
 cd apps/one-main
 pnpm run dev
+```
 
-# 启动分应用
+##### 启动分应用
+``` bash
+
 cd packages/one-basic
 pnpm run dev
+```
 
-构建项目
+### 构建项目
 使用 Lerna 或 Nx 进行统一构建：
 
-bash
-# 使用 Lerna 构建
+#### 使用 Lerna 构建
+``` bash
 lerna bootstrap
 lerna run build --scope=one-main
 lerna run build --scope=one-basic
+```
 
-# 或者使用 Nx 构建
+#### 或者使用 Nx 构建
+``` bash
 nx build one-main
 nx build one-basic
-部署
+```
+
+## 部署
 可以分别部署主机应用和远程应用，确保每个应用可以独立更新和维护。
 
-未来计划
+## 未来计划
 将 UI 框架从 Vant 替换为 Naive UI，以获得更简洁的风格。
 增加更多分应用，丰富系统功能。
 进一步优化模块联邦配置，提升性能。
-贡献指南
+
+## 贡献指南
 欢迎任何开发者参与贡献！如果您有任何问题或建议，请随时提交 Issue 或 Pull Request。
 
-许可证
+## 许可证
 本项目采用 MIT 许可证，详情请参阅 LICENSE 文件。
