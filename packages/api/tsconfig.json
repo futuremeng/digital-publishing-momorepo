@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@jiulu/utils/*": ["../../packages/utils/src/*"],
+      "@jiulu/types/*": ["../../packages/types/src/*"],
+      "@jiulu/store/*": ["../../packages/store/src/*"],
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

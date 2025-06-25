@@ -2,15 +2,24 @@
  * @Author: be_loving@163.com 
  * @Date: 2024-12-22 13:04:59
  * @LastEditors: FutureMeng futuremeng@gmail.com
- * @LastEditTime: 2025-06-05 11:17:29
- * @FilePath: /one-monorepo/README.md
+ * @LastEditTime: 2025-06-25 09:39:07
+ * @FilePath: /digital-publishing-monorepo/README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 # 一栈式主分前端架构
 
 ## 项目简介
 
-本项目旨在构建一个高效、可扩展的一栈式主分前端架构，特别适用于大型项目或微前端架构。通过结合 Monorepo、Federation 和 defineAsyncComponent 技术，我们创建了一个灵活且易于管理的开发环境。
+本项目旨在构建一个适用于数字出版场景的高效、可扩展的一栈式主分前端架构，特别适用于大型项目或微前端架构。通过结合 Monorepo、Federation 和 defineAsyncComponent 技术，我们创建了一个灵活且易于管理的开发环境。
+
+目前本项目能够正常运行，但可能会发生较大的调整，不建议直接作为生产基础。
+
+本项目文档因精力有限，不一定能保持同步更新，见谅。
+
+非常欢迎加入开源共建团队。欢迎提issue和pr。
+
+<img src="1750815463112.png"/>
+
 
 ## 目录结构
 ├── apps/ 

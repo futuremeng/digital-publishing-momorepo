@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@utils": ["packages/utils/src"],
+      "@types/*": ["packages/types/src/*"],
+      "@api/*": ["packages/api/src/*"],
+      "@shared/*": ["shared-components/src/*"]
+    },
+    "target": "ESNext", // 支持现代 JavaScript 特性
+    "module": "ESNext", // 支持 import.meta 等特性
+    "moduleResolution": "Node", // 使用 Node.js 风格的模块解析
+    "strict": true, // 启用所有严格类型检查
+    "esModuleInterop": true, // 支持 CommonJS 和 ES 模块互操作
+    "skipLibCheck": true, // 跳过第三方库的类型检查
+    "forceConsistentCasingInFileNames": true, // 强制文件名大小写一致
+    "types": ["vite/client"], // 包含 Vite 类型，支持 import.meta.env
+    "allowJs": true, // 允许编译 JavaScript 文件
+    "noEmit": true // 根配置不生成输出，仅用于类型检查
+  },
+  "include": [
+    "apps/**/*",
+    "packages/**/*",
+    "shared-components/**/*",
+  ],
+  "exclude": ["node_modules"]
+}

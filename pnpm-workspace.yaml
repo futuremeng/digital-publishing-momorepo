@@ -1,8 +1,12 @@
 packages:
+  # 放置主要微应用
+  - 'apps/*'
+  # 放置特色应用
+  - 'apps/special-scenes/*'
   # 放置共用模块与应用
   - 'packages/*'
-  # 放置微应用
-  - 'apps/*'
+  # 放置共享组件
+  - 'shared-components'
 
   # 忽略目录
   - '!**/test/**'
